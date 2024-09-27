@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Projenizdeki React dosyalarını hedefleyin
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: theme => ({
+          'brand-color': '#5d3ebc'
+      })
+    },
   },
   plugins: [],
 }
