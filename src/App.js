@@ -8,14 +8,16 @@ import Cards from "./components/Cards";
 function App() {
   return (
     <>
-    <Header/>
-    <HeroSection/>
-    <Categories/>
-    <MobileApp/>
-    <Cards/>
-    <Footer/>
+      <Header />
+      <HeroSection />
+      <Categories />
+      <div className="bg-light-color flex gap-y-2 ">
+        <MobileApp />
+        <Cards />
+        <Footer />
+      </div>
     </>
-         
+
   );
 }
 

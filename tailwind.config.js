@@ -5,11 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: theme =>({
+           'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)'
+      }),
       colors:{
           'brand-color': '#5d3ebc',
           'second-color':'#7849f7',
           'gray-color':'#FAFAFA',
-          'yellow-color':'#ffd300'
+          'yellow-color':'#ffd300',
+          'light-color' :'#f0f1f3;'
       }
     },
   },
