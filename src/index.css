@@ -10,6 +10,13 @@
         font-family:"Open Sans", sans-serif;
     }
 }
+.flag-select button{
+    @apply h-14 border-2 border-gray-300 hover:border-brand-color rounded transition-colors bg-white
+}
+.flag-select button >span span:nth-child(2) { /*ilk spanın içerisndeki 2.spanın yani +90 yazısını küçülttük*/
+    @apply text-sm pl-2
+}
+
 
 
 

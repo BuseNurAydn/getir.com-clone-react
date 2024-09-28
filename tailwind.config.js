@@ -5,16 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: theme => ({
+      colors:{
           'brand-color': '#5d3ebc',
           'second-color':'#7849f7',
-          'gray-color':'#FAFAFA'
-      }),
-      textColor: theme => ({
-        'brand-color': '#5d3ebc',
-       
-    }),
-
+          'gray-color':'#FAFAFA',
+          'yellow-color':'#ffd300'
+      }
     },
   },
   plugins: [],
