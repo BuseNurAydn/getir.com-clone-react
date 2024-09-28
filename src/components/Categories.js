@@ -11,7 +11,7 @@ export default function Categories() {
   useEffect(() => {
     //istek
     setCategories(categoryData);
-  });
+  },[]);
 
   return (
     <div className='bg-white py-4'>
