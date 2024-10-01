@@ -11,11 +11,12 @@ function App() {
       <Header />
       <HeroSection />
       <Categories />
-      <div className="bg-light-color flex flex-col gap-y-6 ">
+      <div className='bg-light-color flex flex-col gap-y-6 '>
         <MobileApp />
         <Cards />
-        <Footer />
-      </div>
+  
+        <Footer /> 
+        </div>
     </>
 
   );

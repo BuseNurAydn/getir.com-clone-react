@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: theme =>({
            'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)'
       }),
+      backgroundSize: {
+        'custom-small': '30% auto',
+      },
       colors:{
           'brand-color': '#5d3ebc',
           'second-color':'#7849f7',
