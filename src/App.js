@@ -1,24 +1,19 @@
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import MobileApp from "./components/MobileApp";
-import Footer from "./components/Footer";
-import Categories from "./components/Categories";
-import Cards from "./components/Cards";
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import GetirSu from './pages/GetirSu/HomeSu'
 
 function App() {
   return (
-    <>
-      <Header />
-      <HeroSection />
-      <Categories />
-      <div className='bg-light-color flex flex-col gap-y-6 '>
-        <MobileApp />
-        <Cards />
-  
-        <Footer /> 
-        </div>
-    </>
-
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Home/>}/>
+      {/* <Route path="/getir-buyuk" element={<GetirBuyuk />} />
+        <Route path="/getir-carsi" element={<GetirCarsi />} />
+        <Route path="/su/" element={<GetirSu />} />*/}
+        <Route path="/su/" element={<GetirSu/>}  />
+      </Routes>
+    </Router>
   );
 }
 

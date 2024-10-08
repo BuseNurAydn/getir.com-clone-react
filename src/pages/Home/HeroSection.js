@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 
-export default function HeroSection() {
+ const HeroSection = () =>  {
 
   const [selected, setSelected] = useState("TR");
 
@@ -44,3 +44,4 @@ export default function HeroSection() {
     </div>
   )
 }
+export default HeroSection;

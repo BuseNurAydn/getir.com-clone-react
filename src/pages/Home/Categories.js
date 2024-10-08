@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import categoryData from '../api/categories.json'
-import Category from  '../components/ui/Category'
+import categoryData from '../../api/categories.json'
+import Category from  '../../ui/Category'
 
 
-export default function Categories() {
+ const Categories = () => {
 
   const [categories, setCategories] = useState([]);
 
@@ -25,3 +25,4 @@ export default function Categories() {
     </div>
   )
 }
+export default Categories;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MobileApp() {
+const MobileApp = () => {
   return (
     <div className='container mx-auto px-16'>
       <div className=' flex justify-between items-center bg-brand-color bg-mobile mt-6 rounded-lg text-white'>
@@ -27,3 +27,4 @@ export default function MobileApp() {
     </div>
   )
 }
+export default MobileApp;

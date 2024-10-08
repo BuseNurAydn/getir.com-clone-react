@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import CardData from '../api/cards.json';
-import CardItem from '../components/ui/CardItem'
+import CardData from '../../api/cards.json';
+import CardItem from '../../ui/CardItem'
 
 
-export default function Cards() {
+const Cards = () => {
 
   const [cards, setCards] = useState([]);
 
@@ -14,10 +14,11 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className='container mx-auto px-16'>
+    <div className='container mx-auto px-16 mb-16'>
       <div className='grid grid-cols-3 gap-x-4'>
         {cards.map((card, key) => <CardItem key={key} card={card} />)}
       </div>
     </div>
   )
 }
+export default Cards;

@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme =>({
-           'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)'
+           'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)',
+           'bottles': 'url(https://cdn.getir.com/getirweb_images/popup_splash.png)'
       }),
       backgroundSize: {
         'custom-small': '30% auto',

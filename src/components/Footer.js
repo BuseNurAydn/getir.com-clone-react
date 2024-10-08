@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import FooterMenuItem from '../api/FooterMenu.json'
-import FooterMenu from '../components/ui/FooterMenu'
+import FooterMenu from '../ui/FooterMenu'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { BiGlobe } from 'react-icons/bi'
 
 
-export default function Footer() {
+const Footer = () => {
   const [menus, setMenu] = useState([]);
 
   useEffect(() => {
@@ -62,3 +62,4 @@ export default function Footer() {
 
   )
 }
+export default Footer;
