@@ -7,18 +7,16 @@ const HeroSection = () => {
         <>
             <div className="relative h-[500px] w-full">
                 {/* Arka Plan Resmi */}
-                <div
-                    className="absolute inset-0 bg-bottles bg-cover bg-center opaxity-90"
-                ></div>
+                <div className="absolute inset-0 bg-bottles bg-cover bg-center opacity-100"></div>
 
                 {/* Degrade Katmanı */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#5d3ebc] to-[#e0e0e0] opacity-70"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#5d3ebc] to-transparent opacity-100"></div>
 
                 {/* İçerik */}
                 <div className="relative flex items-center justify-between p-28">
-                    <h3 className="text-4xl mt-8 font-semibold text-white w-full">
-                        Hizmetimizi artık sadece uygulamamız üzerinden veriyoruz.
-                        Şimdi Getir uygulamasını indir, siparişini ver,
+                    <h3 className="text-2xl leading-loose mt-14 font-semibold text-white w-full">
+                        Hizmetimizi artık sadece uygulamamız üzerinden veriyoruz. <br />
+                        Şimdi Getir uygulamasını indir, siparişini ver,<br />
                         dilediğin su markası bayiden kapına gelsin.
                     </h3>
                 </div>
