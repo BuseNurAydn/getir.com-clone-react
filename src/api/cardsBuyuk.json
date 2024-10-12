@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "https://getir.com/_next/static/images/intro-market-basket-8ca56a5e5a21b80ccb71403d77df83d8.svg",
+        "title": "Binlerce çeşit",
+        "description": "Kasaptan manava, ev bakım ürünlerinden kişisel bakım ürünlerine binlerce çeşidi kolayca bulabilirsin."
+    },
+    {
+        "id": 2,
+        "image": "https://getir.com/_next/static/images/intro-market-delivery-86c4407609c24bbdf92feb222d7baca0.svg",
+        "title": "Uygun fiyatlı ürünler",
+        "description": "GetirBüyük’te binlerce ürünü uygun fiyata sipariş verirsin."
+    },
+    {
+        "id": 3,
+        "image": "https://getir.com/_next/static/images/intro-market-fee-586c3e4c701b44396ac99828259e9d7f.svg",
+        "title": "Kapına teslimat",
+        "description": "Siparişlerin kapına kadar gelir."
+    }
+]

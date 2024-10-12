@@ -22,11 +22,11 @@ const Header = () => {
                     <Link to="/carsi/" className="flex items-center"> getirçarşı </Link>
                 </nav>
                 <nav className='flex gap-x-8 text-sm font-semibold '>
-                    <a href='#' className='font-normal text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
+                    <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
                         <FiGlobe size={16} />Türkçe(TR)</a>
-                    <a href='#' className='font-normal text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
+                    <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
                         <FaUser size={16} />Giriş Yap</a>
-                    <a href='#' className='font-normal text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
+                    <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
                         <FaUserPlus size={16} />Kayıt Ol</a>
                 </nav>
             </div>
