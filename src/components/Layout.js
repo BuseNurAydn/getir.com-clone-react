@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <main className="flex-grow">
         {children}  {/* Sayfaya özel içerik */}
       </main>
-      <Footer /> {/* Ortak header */}
+      <Footer /> {/* Ortak footer */}
     </div>
   );
 };

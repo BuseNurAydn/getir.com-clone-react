@@ -8,7 +8,7 @@ import Cards from './Cards';
 const HomeBuyuk = () => {
   return (
     <Layout>
-      {/*<HeroSection />*/}
+      <HeroSection />
       <Categories />
       <div className='bg-light-color flex flex-col gap-y-6'>
       <MobileApp />
