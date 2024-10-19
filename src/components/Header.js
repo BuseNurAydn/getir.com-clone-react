@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='bg-brand-color sticky top-0 z-10 '>
+        <div className='bg-brand-color sticky top-0 z-20 '>
             <div className='container mx-auto px-16 h-11 flex items-center justify-between'>
                 <nav className="space-x-6 flex items-center">
                     <Link to="/" className="flex items-center">
@@ -23,7 +23,7 @@ const Header = () => {
                 </nav>
                 <nav className='flex gap-x-8 text-sm font-semibold '>
                     <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
-                        <FiGlobe size={16} />Türkçe(TR)</a>
+                        <FiGlobe size={16} />Türkçe (TR)</a>
                     <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
                         <FaUser size={16} />Giriş Yap</a>
                     <a href='#' className='font-semibold text-white text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-2'>
