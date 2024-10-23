@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "title": "Deprem Yardımı",
+        "image": "https://cdn.getircarsi.com/19668259d480075884f4ec59e44e73a5.png"
+    },
+    {
+        "id": 2,
+        "title": "Su",
+        "image": "https://cdn.getircarsi.com/5afe83799bc86556599ee9ec74663c8c.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Kahveci",
+        "image": "https://cdn.getircarsi.com/a971cf8d2661b1f6370a376d4be9ef96.png"
+    },
+
+    {
+        "id": 4,
+        "title": "Hediye",
+        "image": "https://cdn.getircarsi.com/51e10392d7cc15975b6281771caa11a2.png"
+    },
+    {
+        "id": 5,
+        "title": "Kuaför",
+        "image": "https://cdn.getircarsi.com/19bf26a4b6f2bc1fca4e15754afd97a9.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Anne & Çocuk",
+        "image": "https://cdn.getircarsi.com/554fcbd74ec94eef7b6d535dc9c85106.png"
+    },
+    {
+        "id": 7,
+        "title": "Pepsi",
+        "image": "https://cdn.getircarsi.com/0d12f0c413f99b21a38c4054d21899a3.png"
+    },
+    {
+        "id": 8,
+        "title": "Market",
+        "image": "https://cdn.getircarsi.com/72ac6c0686ff6f568888c7c5718ee660.png"
+    },
+    {
+        "id": 9,
+        "title": "Manav",
+        "image": "https://cdn.getircarsi.com/29735ed48d43ae4443ff8d629703b79b.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Kasap",
+        "image": "https://cdn.getircarsi.com/198d969f26b3d12c481bf06ca4a07fba.png"
+    },
+    {
+        "id": 11,
+        "title": "Semt Pazarı",
+        "image": "https://cdn.getircarsi.com/eff95eb62d676caef4e930c5fd15f919.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Pet Shop",
+        "image": "https://cdn.getircarsi.com/bc940fef889d68f52693c163811bbce0.png"
+    },
+    {
+        "id": 13,
+        "title": "Şarküteri",
+        "image": "https://cdn.getircarsi.com/d2a3196a65e05409d74d319e8fc29b05.png"
+    },
+    {
+        "id": 14,
+        "title": "Kuru Yemişçi",
+        "image": "https://cdn.getircarsi.com/9770ccff4d133b317ef2eead0c8ee772.png"
+    },
+    {
+        "id": 15,
+        "title": "Aktar",
+        "image": "https://cdn.getircarsi.com/2aa40564ba424f559cd085fc6fdc89a9.png"
+    },
+    {
+        "id": 16,
+        "title": "Çiçekçi",
+        "image": "https://cdn.getircarsi.com/8db6bc8a272de0d8979392259106689a.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Fırın & Yufkacı",
+        "image": "https://cdn.getircarsi.com/14eadbd658a85b893f9bb46bedef7534.png"
+    },
+    {
+        "id": 18,
+        "title": "Balıkçı",
+        "image": "https://cdn.getircarsi.com/c5210628ce96a822b8fa41d6e735e11d.png"
+    },
+    {
+        "id": 19,
+        "title": "Turşucu",
+        "image": "https://cdn.getircarsi.com/c08a1ef2521512c87e3479f7f38fe617.jpeg"
+    },
+    {
+        "id": 20,
+        "title": "Kahveci & Çikolatacı",
+        "image": "https://cdn.getircarsi.com/2e30cc4ab865e039b16651182062055a.png"
+    },
+    {
+        "id": 21,
+        "title": "Kırtasiye",
+        "image": "https://cdn.getircarsi.com/5738bc99c87b6399d60192b19f5ac3b0.jpeg"
+    },
+    {
+        "id": 22,
+        "title": "Kozmetik",
+        "image": "https://cdn.getircarsi.com/8c4a5fcede57d01737806845701a475f.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Elektronik",
+        "image": "https://cdn.getircarsi.com/013ee7899528e2ef10273b76bd7fbbc2.png"
+    },
+    {
+        "id": 24,
+        "title": "Giyim",
+        "image": "https://cdn.getircarsi.com/2bb253b5aced44ca756fdc49a0ec6b46.png"
+    },
+    {
+        "id": 25,
+        "title": "Bebek",
+        "image": "https://cdn.getircarsi.com/9782679ae8fa4c087191080edf5feef8.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Ev,Yaşam & Dekorasyon",
+        "image": "https://cdn.getircarsi.com/013ee7899528e2ef10273b76bd7fbbc2.png"
+    },
+    {
+        "id": 27,
+        "title": "Hobi",
+        "image": "https://cdn.getircarsi.com/416adf9f1327f31c79307d65805e369f.jpg"
+    },
+    {
+        "id": 28,
+        "title": "AVM",
+        "image": "https://cdn.getircarsi.com/57835084721abb3ce4beb3ba7d0b6675.png"
+    }
+]
