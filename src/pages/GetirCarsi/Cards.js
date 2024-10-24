@@ -14,7 +14,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className='container mx-auto px-16 mb-16'>
+    <div className='container mx-auto px-16 mb-4'>
       <div className='grid grid-cols-3 gap-x-4'>
         {cards.map((card, key) => <CardItem key={key} card={card} />)}
       </div>
