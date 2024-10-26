@@ -8,7 +8,8 @@ module.exports = {
       backgroundImage: theme =>({
            'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)',
            'bottles': 'url(https://cdn.getir.com/getirweb_images/popup_splash.png)',
-           'business': 'url(https://cdn.getir.com/getirweb-images/common/partners-background.jpg)'
+           'business': 'url(https://cdn.getir.com/getirweb-images/common/partners-background.jpg)',
+           'carsi' :'url(https://cdn.getir.com/getirweb_images/common/hero_posters/locals_2.jpeg)'
       }),
       backgroundSize: {
         'custom-small': '30% auto',
@@ -19,7 +20,7 @@ module.exports = {
           'gray-color':'#FAFAFA',
           'yellow-color':'#ffd300',
           'light-color' :'#f0f1f3;',
-          'gray-color':'#697488'
+          'graytwo-color':'#697488'
 
       }
     },

@@ -9,6 +9,7 @@ import Business from './Business';
 const HomeCarsi = () => {
   return (
     <Layout>
+      <HeroSection/>
       <Categories/>
       <div className='bg-light-color flex flex-col gap-y-6'>
       <MobileApp/>
