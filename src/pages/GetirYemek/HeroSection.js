@@ -1,8 +1,8 @@
 
 import React, {useRef, useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
-import searchIcon from '../../img/svg/search.svg';
-import crossIcon from '../../img/svg/crosshair.svg'
+import searchIcon from '../../assets/svg/search.svg';
+import crossIcon from '../../assets/svg/crosshair.svg'
 
 const HeroSection = () => {
 

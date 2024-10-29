@@ -16,6 +16,7 @@ module.exports = {
       },
       colors:{
           'brand-color': '#5d3ebc',
+          'black-color': '#191919',
           'second-color':'#7849f7',
           'gray-color':'#FAFAFA',
           'yellow-color':'#ffd300',

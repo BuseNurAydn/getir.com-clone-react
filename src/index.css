@@ -23,6 +23,9 @@
 .flag-select button >span span:nth-child(2) { /*ilk spanın içerisndeki 2.spanın yani +90 yazısını küçülttük*/
     @apply text-sm pl-2
 }
+.slick-slide > div{
+    margin: 0 8px;
+}
 
 
 

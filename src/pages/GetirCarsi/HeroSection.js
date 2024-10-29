@@ -1,8 +1,8 @@
 
 import React, { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
-import searchIcon from '../../img/svg/search.svg';
-import crossIcon from '../../img/svg/crosshair.svg'
+import searchIcon from '../../assets/svg/search.svg';
+import crossIcon from '../../assets/svg/crosshair.svg'
 
 const HeroSection = () => {
 
@@ -18,7 +18,7 @@ const HeroSection = () => {
     }
 
     return (
-        <div className='bg-carsi h-[440px] w-full flex justify-end pr-8'>
+        <div className='bg-carsi h-[500px] w-full flex justify-end pr-8'>
             <div className=" flex items-center justify-between mr-16 ">
                 <div className='md:w-[400px] rounded-lg bg-gray-color p-6'>
                     <div className='flex items-center mb-4'>

@@ -16,7 +16,7 @@ import Category from  '../../ui/Category'
   return (
     <div className='bg-white py-4'>
       <div className='container mx-auto px-16'>
-        <h3 className='font-semibold text-sm mb-2'>Kategoriler</h3>
+        <h3 className='font-semibold text-sm text-black-color mb-2'>Kategoriler</h3>
         <div className='grid grid-cols-10'>
           {categories && categories.map((category, index) => <Category key={index} category={category} />)}
         </div>
