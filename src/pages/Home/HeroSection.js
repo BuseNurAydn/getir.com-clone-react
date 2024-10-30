@@ -5,6 +5,7 @@ import ReactFlagsSelect from "react-flags-select";
  const HeroSection = () =>  {
 
   const [selected, setSelected] = useState("TR");
+ 
 
   const phones = {
     US: '+1',
@@ -16,9 +17,10 @@ import ReactFlagsSelect from "react-flags-select";
   }
 
   return (
-    <div className='bg-second-color h-[440px] w-full'>
-      <div className=" flex items-center justify-between p-28 ">
-        <div>
+    <div className="bg-second-color">
+    <div className='container mx-auto h-[500px] w-full'>
+      <div className="flex items-center justify-between p-28 ">
+        <div className="hidden md:block ">
           <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
           <h3 className="text-4xl mt-8 font-semibold text-white w-full">Dakikalar içinde kapında</h3>
         </div>
@@ -37,10 +39,11 @@ import ReactFlagsSelect from "react-flags-select";
               <span className="absolute top-0 left-0 h-full flex items-center px-7 text-sm transition-all text-gray-500 peer-focus:h-8 peer-focus:text-brand-color peer-focus:text-xs peer-valid:h-8 peer-valid:text-brand-color peer-valid:text-xs" >Telefon Numarası</span>
             </label>
           </div>
-          <button className="bg-yellow-color rounded-md mt-3 flex items-center justify-center w-full h-12 font-semibold text-sm text-brand-color hover:bg-brand-color hover:text-yellow-color transition-colors">Telefon numarası ile devam et</button>
+          <button className="bg-yellow-color rounded-md mt-3 flex items-center justify-center w-full h-12 font-semibold text-sm text-brand-color hover:bg-brand-color hover:text-yellow-color transition-colors sm:w-full">Telefon numarası ile devam et</button>
 
         </div>
       </div>
+    </div>
     </div>
   )
 }
