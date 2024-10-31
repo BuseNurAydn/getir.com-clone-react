@@ -19,7 +19,7 @@ import ReactFlagsSelect from "react-flags-select";
   return (
     <div className="bg-second-color">
     <div className='container mx-auto h-[500px] w-full'>
-      <div className="flex items-center justify-between p-28 ">
+      <div className="flex items-center justify-between p-28 px-20 ">
         <div className="hidden md:block ">
           <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
           <h3 className="text-4xl mt-8 font-semibold text-white w-full">Dakikalar içinde kapında</h3>

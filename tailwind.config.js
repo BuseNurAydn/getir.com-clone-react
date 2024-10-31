@@ -21,7 +21,8 @@ module.exports = {
           'gray-color':'#FAFAFA',
           'yellow-color':'#ffd300',
           'light-color' :'#f0f1f3;',
-          'graytwo-color':'#697488'
+          'graytwo-color':'#697488',
+          
 
       }
     },
