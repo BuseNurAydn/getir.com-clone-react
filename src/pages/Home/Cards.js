@@ -14,11 +14,14 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className='container mx-auto px-16 mb-16'>
-      <div className='grid grid-cols-1 gap-x-4 md:grid-cols-3'>
-        {cards.map((card, key) => <CardItem key={key} card={card} />)}
+    <div className='container mx-auto mb-16 px-4 md:px-2 lg:px-4 xl:px-16'>
+      <div className='grid md:grid-cols-3 gap-4'>
+        {cards.map((card, key) => (
+          <CardItem key={key} card={card} className="sm:mb-4" />
+        ))}
       </div>
     </div>
+
   )
 }
 export default Cards;

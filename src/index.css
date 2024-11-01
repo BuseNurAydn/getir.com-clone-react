@@ -26,6 +26,9 @@
 .slick-slide > div{
     margin: 0 8px;
 }
+.ReactCollapse--collapse {
+    @apply transition-all
+}
 
 
 

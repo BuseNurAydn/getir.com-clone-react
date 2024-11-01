@@ -2,8 +2,8 @@ import React from 'react'
 
 const MobileApp = () => {
   return (
-    <div className='container px-16 mx-auto '>
-      <div className=' flex justify-between items-center bg-brand-color bg-mobile mt-6 rounded-lg text-white'>
+    <div className='container mx-auto px-0 md:px-2 lg:px-4 xl:px-16 2xl:px-16 '>
+      <div className=' flex flex-col md:flex-row justify-between items-center bg-brand-color bg-mobile mt-6 md:rounded-lg text-white'>
         <div className='flex flex-col gap-y-3 p-10'>
           <h2 className='text-2xl font-bold tracking-tight'>Getir'i indir!</h2>
           <span>İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</span>
@@ -19,7 +19,7 @@ const MobileApp = () => {
             </a>
           </div>
         </div>
-        <picture className='pt-6'>
+        <picture className='pt-6 md:self-end hidden md:block'>
           <img src='https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png'></img>
         </picture>
 

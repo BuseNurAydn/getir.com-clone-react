@@ -53,14 +53,14 @@ const Footer = () => {
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 md:px-0">
-        <div className="grid gap-y-6 md:grid-cols-2 lg:grid-cols-4 pt:5 md:pt-10 px-16">
+        <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-2 pt:5 md:pt-10 px-0 md:px-4 xl:px-16">
           <DownloadLinks />
           {menus.map((menu, index) => (
-            <FooterMenu key={index} title={menu.title} items={menu.items} />
+            <FooterMenu key={index} title={menu.title} items={menu.items}/>
           ))}
         </div>
-        <div className="flex justify-between items-center border-t border-gray-200 mt-6 py-8">
-          <div className="text-xs text-gray-700 flex gap-x-8 px-16">
+        <div className="flex flex-col md:flex-row gap-y-4 justify-between items-center border-t border-gray-200 mt-6 py-8">
+          <div className="text-xs text-gray-700 flex gap-x-8 px-0 md:px-16">
             &copy; 2021 Getir
             <a href="#" className="text-brand-color relative before:w-[3px] before:h-[3px] before:bg-black before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:rounded-full">
               Bilgi Toplumu Hizmetleri

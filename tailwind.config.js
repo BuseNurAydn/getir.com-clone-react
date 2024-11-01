@@ -9,7 +9,7 @@ module.exports = {
            'mobile': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)',
            'bottles': 'url(https://cdn.getir.com/getirweb_images/popup_splash.png)',
            'business': 'url(https://cdn.getir.com/getirweb-images/common/partners-background.jpg)',
-           'carsi' :'url(https://cdn.getir.com/getirweb_images/common/hero_posters/locals_2.jpeg)'
+           'carsi' : 'url(https://cdn.getir.com/getirweb_images/common/hero_posters/locals_2.jpeg)'
       }),
       backgroundSize: {
         'custom-small': '30% auto',
