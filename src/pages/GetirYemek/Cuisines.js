@@ -55,22 +55,12 @@ const Cuisines = () => {
           arrows: false
         }
       },
-
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          initialSlide: 2,
-          dots: false,
-          arrows:false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          infinite:true,
           dots: false,
           arrows:false
         }
@@ -79,14 +69,14 @@ const Cuisines = () => {
   };
 
   return (
-    <div className='container mx-auto px-14'>
+    <div className='container mx-auto px-0 md:px-2 xl:px-14'>
       <div className='mt-6'>
-        <h3 className='font-semibold text-sm text-black-color leading-5 mb-6 px-4'>Mutfaklar</h3>
+        <h3 className='font-semibold text-sm text-black-color leading-5 mb-6 px-2'>Mutfaklar</h3>
         <Slider {...settings}>
           {data.map((d) => (
             <div className='bg-white text-brand-color text-center pointer text-xs font-semibold rounded-lg'>
               <div>
-                <img src={d.image} alt='' className='h-20 w-20 text-center flex  mx-auto rounded-full'></img>
+                <img src={d.image} alt='' className='h-20 w-20 text-center flex mx-auto rounded-full'></img>
               </div>
               <div className=" flex items-center border-b divide-inherit w-full"/>
               <div className='flex flex-col justify-center items-center gap-y-2 p-2'>
