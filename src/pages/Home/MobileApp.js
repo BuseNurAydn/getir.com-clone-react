@@ -2,12 +2,12 @@ import React from 'react'
 
 const MobileApp = () => {
   return (
-    <div className='container mx-auto px-0 md:px-2 lg:px-4 xl:px-16 2xl:px-16 '>
+    <div className='container mx-auto px-0 md:px-2 lg:px-4 xl:px-16'>
       <div className=' flex flex-col md:flex-row justify-between items-center bg-brand-color bg-mobile mt-6 md:rounded-lg text-white'>
-        <div className='flex flex-col gap-y-3 p-10'>
+        <div className='flex flex-col gap-y-3 md:p-10 py-6 px-4'>
           <h2 className='text-2xl font-bold tracking-tight'>Getir'i indir!</h2>
           <span>İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</span>
-          <div className='mt-5 flex gap-x-2'>
+          <div className='mt-5 flex md:gap-x-2 gap-y-2 flex-col md:flex-row'>
             <a href='#'>
               <img src='https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg' />
             </a>
