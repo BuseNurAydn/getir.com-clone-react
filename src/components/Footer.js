@@ -52,7 +52,7 @@ const Footer = () => {
 
   return (
     <div className="bg-white">
-      <div className="container mx-auto px-4 md:px-0">
+      <div className="container mx-auto p-4 md:px-0">
         <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-2 pt:5 md:pt-10 px-0 md:px-4 xl:px-16">
           <DownloadLinks />
           {menus.map((menu, index) => (
