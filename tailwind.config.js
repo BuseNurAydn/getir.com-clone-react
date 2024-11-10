@@ -15,16 +15,15 @@ module.exports = {
         'custom-small': '30% auto',
       },
       colors:{
-          'brand-color': '#5d3ebc',
+          'brand-color': '#5D3EBC',
           'black-color': '#191919',
-          'second-color':'#7849f7',
+          'second-color':'rgb(76, 51, 152)',
           'gray-color':'#FAFAFA',
           'yellow-color':'#ffd300',
           'light-color' :'#f0f1f3;',
           'graytwo-color':'#697488',
-          
-
-      }
+          'third-color': '#7849f7'
+      },
     },
   },
   plugins: [],

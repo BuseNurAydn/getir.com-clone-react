@@ -17,6 +17,12 @@
       background: linear-gradient(262.73deg, rgb(255, 228, 48) 0%, rgb(255, 213, 0) 100%);
     }
   }
+@layer utilities {
+    .bg-brand-to-transparent {
+        background: linear-gradient(90deg, #5d3ebc 40%, rgba(65, 8, 235, 0.8) 100%);
+        opacity: 1;
+    }
+}
 .flag-select button{
     @apply h-14 border-2 border-gray-300 hover:border-brand-color rounded transition-colors bg-white
 }
