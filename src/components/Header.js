@@ -21,21 +21,21 @@ const Header = () => {
 
     return (
         <div className='bg-brand-color sticky top-0 z-20'>
-            <div className='container mx-auto px-16 h-12 flex items-center justify-between'>
-                <nav className="space-x-6 flex items-center">
+            <div className='container mx-auto md:px-16 px-2 h-12 flex items-center justify-between'>
+                <nav className="md:space-x-2 flex items-center">
                     {links.map(({ path, label, subLabel }) => {
                         const isActive = location.pathname === path;
                         return (
                             <Link
                                 key={path}
                                 to={path}
-                                className={`flex items-center px-4 py-3 rounded-t-lg ${isActive ? "bg-second-color" : "bg-transparent"}`}
+                                className={`flex items-center px-2 py-3.5 md:px-4 md:py-3 rounded-t-lg ${isActive ? "bg-second-color" : "bg-transparent"}`}
                             >
-                                <span className={`font-semibold text-base ${isActive ? "text-yellow-500" : "text-gray-200"}`}>
+                                <span className={`font-medium md:font-semibold text-sm md:text-base ${isActive ? "text-yellow-500" : "text-gray-200"}`}>
                                     {label}
                                 </span>
                                 {subLabel && (
-                                    <span className={`font-semibold text-base ${isActive ? "text-white" : "text-gray-200"}`}>
+                                    <span className={`font-medium md:font-semibold text-sm md:text-base ${isActive ? "text-white" : "text-gray-200"}`}>
                                         {subLabel}
                                     </span>
                                 )}
@@ -43,7 +43,7 @@ const Header = () => {
                         );
                     })}
                 </nav>
-                <nav className="flex gap-x-8 text-sm font-semibold">
+                <nav className="hidden md:flex gap-x-8 text-sm font-semibold ">
                     {links_two.map(({ href, icon, label }) => (
                         <a
                             key={label}
