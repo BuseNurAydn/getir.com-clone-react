@@ -21,7 +21,7 @@ const Header = () => {
 
     return (
         <div className='bg-second-color md:sticky top-0 z-20'>
-            <div className='container mx-auto md:px-16 px-2 h-12 flex items-center justify-between'>
+            <div className='container md:mx-auto md:px-16 px-2 h-12 flex items-center justify-between'>
                 <nav className="md:space-x-2 flex items-center">
                     {links.map(({ path, label, subLabel }) => {
                         const isActive = location.pathname === path;

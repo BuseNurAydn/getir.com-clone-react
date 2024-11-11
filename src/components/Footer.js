@@ -36,7 +36,7 @@ const SocialLinks = () => (
         {link.icon}
       </a>
     ))}
-    <a href="#" className="h-8 transition-colors hover:bg-brand-color hover:bg-opacity-10 hover:text-brand-color hover:border-transparent flex items-center px-2 text-sm gap-x-2 rounded text-gray-500 border border-gray-100">
+    <a href="#" className="h-8 transition-colors bg-white hover:bg-light-color hover:bg-opacity-10 hover:text-brand-color flex items-center px-2 text-xs md:text-sm gap-x-2 rounded text-gray-500 border border-gray-300">
       <BiGlobe size={18} />
       Türkçe (TR)
     </a>
@@ -52,14 +52,14 @@ const Footer = () => {
 
   return (
     <div className="bg-white">
-      <div className="container mx-auto p-4 md:px-0">
-        <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-2 pt:5 md:pt-10 px-0 md:px-4 xl:px-16">
+      <div className="md:container md:mx-auto md:px-0">
+        <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-2 pt:5  md:pt-10 p-4 xl:px-16">
           <DownloadLinks />
           {menus.map((menu, index) => (
             <FooterMenu key={index} title={menu.title} items={menu.items}/>
           ))}
         </div>
-        <div className="flex flex-col md:flex-row gap-y-4 justify-between items-center border-t border-gray-200 mt-6 py-8">
+        <div className="bg-light-color md:bg-white flex flex-col md:flex-row gap-y-4 justify-between items-center border-t border-gray-200 mt-6 py-8">
           <div className="text-xs text-gray-700 flex gap-x-8 px-0 md:px-16">
             &copy; 2021 Getir
             <a href="#" className="text-brand-color relative before:w-[3px] before:h-[3px] before:bg-black before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:rounded-full">
