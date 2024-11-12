@@ -69,7 +69,7 @@ const Cuisines = () => {
   };
 
   return (
-    <div className='container mx-auto px-0 md:px-2 xl:px-14'>
+    <div className='md:container md:mx-auto px-0 md:px-2 xl:px-14'>
       <div className='mt-6'>
         <h3 className='font-semibold text-sm text-black-color leading-5 mb-6 px-2'>Mutfaklar</h3>
         <Slider {...settings}>
