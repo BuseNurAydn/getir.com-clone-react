@@ -47,10 +47,13 @@ const HeroSection = () => {
                     onEnded={handleVideoEnd}
                 />
             </div>
-            <div className='md:h-[440px] relative z-10 flex md:justify-end md:p-8 h-full w-full md:w-auto'>
-                <div className=" flex items-center justify-between md:mr-16 w-full md:mx-auto">
-                    <div className='md:w-[400px] rounded-lg bg-gray-color p-6 w-full md:mx-auto'>
-                        <h2 className="text-center text-base font-semibold leading-6 text-brand-color mb-4">Adresine getiren restoranları gör</h2>
+            <div className='md:h-[440px] relative z-10 flex justify-center items-center md:p-8 h-full w-full md:w-auto'>
+                <div className=" flex items-center justify-center md:mr-12 md:mt-32 w-full md:mx-auto">
+                    <div className='md:w-[400px] rounded-lg bg-gray-color p-6 w-full md:mr-0 md:ml-auto'>
+                        {/* "getiryemek" başlığı */}
+                        <div className="bg-brand-color text-yellow-color font-extrabold text-lg text-center py-5 absolute -top-0 left-1/2 transform -translate-x-1/2 w-full md:w-auto md:hidden">getir<span className="text-white">yemek</span>
+                        </div>
+                        <h2 className="text-center text-base font-semibold leading-6 text-brand-color mb-4 mt-20 md:mt-0 ">Adresine getiren restoranları gör</h2>
                         <div className='flex items-center'>
                             <label className='flex-1 relative block cursor-pointer'>
                                 <img
@@ -65,17 +68,17 @@ const HeroSection = () => {
                                 />
                             </label>
                             <button
-                                className="md:ml-44 absolute px-4 py-2 bg-gray-color rounded-lg text-sm font-semibold hover:bg-brand-dark transition-colors flex items-center space-x-2">
+                                className="md:right-32 absolute right-8 md:px-4 px-2 py-2 bg-gray-color rounded-lg text-sm font-semibold hover:bg-brand-dark transition-colors flex items-center space-x-2">
                                 <img
                                     src={crossIcon}
                                     alt="Button Icon"
                                     className="w-4 h-4"
                                 />
-                                <span className="text-brand-color">Konumumu bul</span>
+                                <span className="text-brand-color hidden md:block">Konumumu bul</span>
                             </button>
                         </div>
-                        <div className=" relative flex items-center border-b-2 my-8 divide-slate-400 w-full">
-                            <span className="absolute bg-gray-color ml-36 text-sm px-4 font-semibold text-slate-500">veya</span>
+                        <div className=" relative flex items-center border-b-2 my-4 divide-slate-400 w-full">
+                            <span className="absolute bg-gray-color ml-36 text-sm px-4 font-semibold text-slate-500 hidden md:block">veya</span>
                         </div>
                         <h3 className='text-brand-color text-center font-semibold m-4'>Giriş yap veya kayıt ol</h3>
                         <div class="grid">
@@ -93,11 +96,11 @@ const HeroSection = () => {
                                 </label>
                             </div>
                             <button className="bg-yellow-color rounded-md mt-3 flex items-center justify-center h-12 font-semibold text-sm text-brand-color hover:bg-brand-color hover:text-yellow-color transition-colors w-full">Telefon numarası ile devam et</button>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            )
+        </div>
+    )
 }
-            export default HeroSection;
+export default HeroSection;
