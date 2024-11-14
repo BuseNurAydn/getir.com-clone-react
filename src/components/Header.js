@@ -29,13 +29,13 @@ const Header = () => {
                             <Link
                                 key={path}
                                 to={path}
-                                className={`flex items-center px-2 py-3.5 md:px-4 md:py-3 rounded-t-lg ${isActive ? "bg-brand-color" : "bg-transparent"}`}
+                                className={`flex items-center px-2 py-4 md:px-4 md:py-3 rounded-t-lg ${isActive ? "bg-brand-color" : "bg-transparent"}`}
                             >
-                                <span className={`font-semibold text-sm md:text-base ${isActive ? "text-yellow-500" : "text-gray-200"}`}>
+                                <span className={`font-bold text-sm md:text-base ${isActive ? "text-yellow-500" : "text-gray-200"}`}>
                                     {label}
                                 </span>
                                 {subLabel && (
-                                    <span className={`font-semibold text-sm md:text-base ${isActive ? "text-white" : "text-gray-200"}`}>
+                                    <span className={`font-bold text-sm md:text-base ${isActive ? "text-white" : "text-gray-200"}`}>
                                         {subLabel}
                                     </span>
                                 )}

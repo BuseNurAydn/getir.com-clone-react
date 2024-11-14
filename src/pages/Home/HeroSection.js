@@ -26,7 +26,7 @@ const HeroSection = () => {
           </div>
           <div className='md:w-[420px] md:rounded-lg bg-gray-50 md:p-6 p-4 relative w-full md:w-auto'>
             {/* "getir" başlığı */}
-            <div className="bg-brand-color text-yellow-color font-extrabold text-lg text-center py-5 absolute -top-0 left-1/2 transform -translate-x-1/2 w-full md:w-auto md:hidden">getir
+            <div className="bg-brand-color text-yellow-color font-bold text-lg text-center py-5 absolute -top-0 left-1/2 transform -translate-x-1/2 w-full md:w-auto md:hidden">getir
             </div>
             <h4 className='text-brand-color text-center font-semibold mb-4 mt-20 md:mt-0'>Giriş yap veya kayıt ol</h4>
             <div class="grid">

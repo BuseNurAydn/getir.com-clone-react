@@ -51,7 +51,7 @@ const HeroSection = () => {
                 <div className=" flex items-center justify-center md:mr-12 md:mt-32 w-full md:mx-auto">
                     <div className='md:w-[400px] rounded-lg bg-gray-color p-6 w-full md:mr-0 md:ml-auto'>
                         {/* "getiryemek" başlığı */}
-                        <div className="bg-brand-color text-yellow-color font-extrabold text-lg text-center py-5 absolute -top-0 left-1/2 transform -translate-x-1/2 w-full md:w-auto md:hidden">getir<span className="text-white">yemek</span>
+                        <div className="bg-brand-color text-yellow-color font-bold text-lg text-center py-5 absolute -top-0 left-1/2 transform -translate-x-1/2 w-full md:w-auto md:hidden">getir<span className="text-white">yemek</span>
                         </div>
                         <h2 className="text-center text-base font-semibold leading-6 text-brand-color mb-4 mt-20 md:mt-0 ">Adresine getiren restoranları gör</h2>
                         <div className='flex items-center'>
