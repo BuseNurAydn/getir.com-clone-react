@@ -47,7 +47,7 @@ const HeroSection = () => {
                     onEnded={handleVideoEnd}
                 />
             </div>
-            <div className='md:h-[440px] relative z-10 flex justify-center items-center md:p-8 h-full w-full md:w-auto'>
+            <div className='md:h-[500px] relative z-10 flex md:justify-end md:pr-8 h-full w-full md:w-auto'>
                 <div className=" flex items-center justify-center md:mr-12 md:mt-32 w-full md:mx-auto">
                     <div className='md:w-[400px] rounded-lg bg-gray-color p-6 w-full md:mr-0 md:ml-auto'>
                         {/* "getiryemek" başlığı */}
@@ -80,7 +80,7 @@ const HeroSection = () => {
                                 <span className="text-brand-color hidden md:block">Konumumu bul</span>
                             </button>
                         </div>
-                        <div className=" relative flex items-center border-b-2 my-4 divide-slate-400 w-full">
+                        <div className=" relative flex items-center border-b-2 my-4 md:my-8 divide-slate-400 w-full">
                             <span className="absolute bg-gray-color ml-36 text-sm px-4 font-semibold text-slate-500 hidden md:block">veya</span>
                         </div>
                         <h3 className='text-brand-color text-center font-semibold m-4'>Giriş yap veya kayıt ol</h3>
